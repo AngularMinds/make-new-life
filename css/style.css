@@ -1,0 +1,418 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    transition-duration: 0.3s;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.btn-orange {
+    background: #f04c24;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.btn-orange:hover, .btn-orange:focus {
+    background: transparent;
+    color: #f04c24;
+    border: 1px solid #f04c24;
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
+.border-none {
+    border-radius: 0px;
+}
+
+@media (max-width:767px) {
+    h2 {
+        font-size: 24px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+}
+
+.top-links {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+
+/*navigation*/
+
+.logo {
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar-default {
+    background-color: #ffcb04;
+    border-bottom: 1px solid #f04c24;
+    border-top: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #FFF;
+    background-color: #f04c24;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    background-color: #f04c24;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar .active {
+    background-color: #f04c24;
+    color: #fff!important;
+}
+
+
+/*banner*/
+
+.banner {
+  
+    background-size: cover;
+   
+    position: relative;
+}
+
+.banner h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(../images/feet.png), url(../images/feet.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    font-size: 32px;
+    color: #000;
+    padding: 45px;
+    line-height: 40px;
+}
+
+.about-work {
+    background-image: url(../images/big-feet.png), url(../images/big-feet.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-work p {
+    font-size: 16px;
+    padding: 0 80px;
+    line-height: 28px;
+}
+
+.work-count {
+    background: #f04c24;
+    padding: 20px 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.work-count p {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.work-count p span {
+    font-weight: normal;
+    font-size: 40px;
+    display: block;
+}
+
+.become-volunteer {
+    background: url(../images/become-volunteer.jpg) no-repeat center;
+    background-size:cover;
+    color: #fff;
+    padding-top: 12%;
+    padding-bottom: 8%;
+}
+
+.become-volunteer p {
+    font-size: 16px;
+}
+
+.testimolials h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testimolials h3 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.testimolials p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.testimolials .client-name {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    background: #ffcb05;
+    margin-top: 60px;
+    color: #333;
+    text-align: center;
+    padding: 15px 15px 5px 15px;
+}
+
+.small-banner {
+    background: url(../images/small-banner.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+.about-banner {
+    background: url(../images/about-banner.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+.donations-banner {
+    background: url(../images/donations-banner.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+.work-banner {
+    background: url(../images/work-banner.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+.contact-banner {
+    background: url(../images/contact-banner.jpg) no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+.small-banner h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(../images/feet.png);
+    background-position: right center;
+    background-repeat: no-repeat, no-repeat;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 32px;
+    color: #000;
+    padding: 15px 60px 15px 15px;
+}
+
+.about-content {
+    background: #fff1ec;
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.vision h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.vision p {
+    padding-bottom: 10px;
+}
+
+.vision p img {
+    float: left;
+    padding-right: 10px;
+}
+
+.team {
+    background: #fff1ec;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.team img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donations h2 {
+    padding-top: 30px;
+}
+
+.donations p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.donations ul{
+    padding-left:15px;
+    font-size: 15px;
+}
+.donations-box{
+    background:#f5f5f5;
+    padding:15px;
+    border:1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.gallery img {
+    margin-bottom: 15px;
+}
+
+.sl-overlay {
+    background: #000;
+}
+
+.work img {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.address {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.address span {
+    display: block;
+    font-weight: 600;
+}
+.footer a{ color: #333; }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f04c24;
+}
+.owl-theme .owl-dots .owl-dot span {
+
+    background: #fe8d72;
+   
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .logo .img-responsive,
+    .thumbnail a > img,
+    .thumbnail > img {
+        display: block;
+        max-width: 75%;
+        height: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .logo {
+        bottom: auto;
+        top: 0;
+    }
+    .logo .img-responsive,
+    .thumbnail a > img,
+    .thumbnail > img {
+        display: block;
+        max-width: 50%;
+        height: auto;
+    }
+    .nav > li > a {
+        padding: 8px;
+        font-size: 12px;
+    }
+     .about-content {
+        background: none;
+    }
+    .about-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width:767px) {
+    .logo {
+        bottom: auto;
+        top: 0;
+    }
+    .logo .img-responsive,
+    .thumbnail a > img,
+    .thumbnail > img {
+        display: block;
+        max-width: 75%;
+        height: auto;
+    }
+    .navbar-default {
+        background-color: #fff;
+        border-bottom: 1px solid #f04c24;
+        border-top: 0px;
+    }
+    .navbar-toggle {
+        margin-top: 47px;
+    }
+    .banner h1 {
+    background-color: #f34a29;
+    background-image: none;
+    position: static;
+    bottom:auto;
+    right: auto;
+    font-size: 22px;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+    .about-work {
+        background: none;
+        margin-top: 0px;
+        padding: 15px;
+        text-align: left;
+    }
+    .about-work p {
+        padding: 0 0px;
+    }
+    .work-count {
+        padding: 15px;
+    }
+    .work-count p {
+        font-size: 15px;
+    }
+    .work-count p span {
+        font-size: 20px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .about-content {
+        background: none;
+    }
+    .about-content {
+        padding: 15px;
+    }
+    .vision h2 {
+        padding-top: 10px;
+    }
+    .address {
+        margin-bottom: 20px;
+    }
+}
